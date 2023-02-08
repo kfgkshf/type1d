@@ -1,0 +1,66 @@
+.topnav {
+    background-color: #344c60;
+
+    overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #b1bf8a;
+    color: #344c60
+;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #8cbc54;
+    color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+}
+body {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    margin: 40px 0 40px;
+    font-size: 30px;
+    color: #34495e;
+    text-shadow: 2px 2px 4px whitesmoke;
+    font-family: 'Cherry Swash', cursive;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #34495e;
+    text-shadow: 2px 2px 4px whitesmoke;
+    font-family: 'Cherry Swash', cursive;
+}
+
+
+#search{
+    margin: 0 auto 0;
+
+    position: relative;
+    width: 230px;
+    height: 40px;
+
+    border-radius: 5px;
+    font-size: 0;
+}
+

@@ -1,0 +1,104 @@
+.heading{
+
+}
+.heading:hover {
+    color:#8cbc54;
+}
+
+
+.box{
+    width:380px;
+    height: 480px;
+    margin: 6% auto;
+    position: relative;
+    background: white;
+    padding:5px;
+    overflow:hidden;
+    box-shadow: 0 0 15px 5px;
+    border-radius: 15px;
+    color: gray;
+}
+.logo-box
+{
+    left:1000px;
+    align-items:center;
+
+}
+.toggle-button{
+    padding: 15px 35px;
+    cursor:pointer;
+    position:relative;
+    background:transparent;
+    border:0;
+    outline:none;
+    font-family:arial;
+    font-size: 15px;
+}
+#button
+{
+    top:0;
+    left:0;
+    position:absolute;
+    width:140px;
+    height:100%;
+    background: #8cbc54;
+    border-radius:20px;
+
+}
+.input-group
+{
+    position:absolute;
+    transition: .5s;
+}
+.input-field{
+    margin: 10px 0;
+    border-left:0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid;
+    background:transparent;
+    outline:none;
+    width:180%;
+    padding: 10px 0;
+}
+.input-field2{
+    margin: 10px 0;
+    border-left:0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid;
+    background:transparent;
+    outline:none;
+    width:90%;
+    padding: 10px 0;
+}
+.submit-button
+{
+    width:180%;
+    cursor:pointer;
+    display:block;
+
+    background:#8cbc54;
+    border:0;
+    border-radius:20px;
+    color:white;
+}
+.submit-button2
+{
+    width:90%;
+    cursor:pointer;
+    display:block;
+
+    background:#8cbc54;
+    border:0;
+    border-radius:20px;
+    color:white;
+}
+#login{
+    left:50px;
+
+}
+#register{
+    left:450px;
+
+}

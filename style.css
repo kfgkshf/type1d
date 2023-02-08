@@ -1,0 +1,70 @@
+.box{
+    width:380px;
+    height: 480px;
+    margin: 6% auto;
+    position: relative;
+    background: thistle;
+    padding:5px;
+    overflow:hidden;
+    box-shadow: 0 0 150px 5px;
+    border-radius: 15px;
+}
+.button-box
+ {
+     width: 250px;
+     margin:30px auto;
+     border-radius: 20px;
+     position:relative;
+     box-shadow: 0 0 20px 9px whitesmoke;
+ }
+.toggle-button{
+    padding: 15px 35px;
+    cursor:pointer;
+    position:relative;
+    background:transparent;
+    border:0;
+    outline:none;
+}
+#button
+{
+    top:0;
+    left:0;
+    position:absolute;
+    width:140px;
+    height:100%;
+    background: whitesmoke;
+    border-radius:20px;
+}
+.input-group
+{
+    position:absolute;
+    transition: .5s;
+}
+.input-field{
+    margin: 10px 0;
+    border-left:0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid;
+    background:transparent;
+    outline:none;
+    width:80%;
+    padding: 10px 0;
+}
+.submit-button
+{
+    width:80%;
+    cursor:pointer;
+    display:block;
+    background:whitesmoke;
+    border:0;
+    border-radius:20px;
+}
+#login{
+    left:50px;
+
+}
+#register{
+    left:450px;
+
+}
